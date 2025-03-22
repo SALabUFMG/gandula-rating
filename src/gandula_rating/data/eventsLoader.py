@@ -8,6 +8,8 @@ load_dotenv()
 
 event_list = ['pass', 'cross', 'throw_in', 'freekick_crossed', 'freekick_short', 'corner_crossed', 'corner_short', 'take_on', 'foul', 'tackle', 'interception', 'shot', 'shot_penalty', 'shot_freekick', 'keeper_save', 'keeper_claim', 'keeper_punch', 'keeper_pick_up', 'clearance', 'bad_touch', 'non_action', 'dribble', 'goalkick']
 
+
+
 def events_to_df(events, match_id):
     """
     Converte uma lista de 'events' em um DataFrame com colunas:
