@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "numpy",
     "pandas",
@@ -26,6 +26,8 @@ dependencies = [
     "gandula",
     "tqdm",
     "jupyter",
+    "ipykernel>=6.29.5",
+    "python-dotenv>=1.0.1",
 ]
 
 [project.optional-dependencies]
